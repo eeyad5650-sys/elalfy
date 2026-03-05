@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue Avenue | Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">VOGUE<span>AVENUE</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Shop Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Shop</h1>
+            <p>Discover our curated collection of fashion items</p>
+        </div>
+    </section>
+
+    <!-- Shop Content -->
+    <section class="shop">
+        <div class="container">
+            <div class="shop-content">
+                <!-- Filters Sidebar -->
+                <aside class="filters">
+                    <h3>Filters</h3>
+                    <div class="filter-section">
+                        <h4>Category</h4>
+                        <ul class="filter-list">
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Bags</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Price Range</h4>
+                        <input type="range" min="0" max="500" value="250" class="price-slider">
+                        <div class="price-range">
+                            <span>$0</span>
+                            <span>$500+</span>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Size</h4>
+                        <div class="size-options">
+                            <button class="size-btn">XS</button>
+                            <button class="size-btn">S</button>
+                            <button class="size-btn">M</button>
+                            <button class="size-btn">L</button>
+                            <button class="size-btn">XL</button>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Color</h4>
+                        <div class="color-options">
+                            <span class="color-option black"></span>
+                            <span class="color-option white"></span>
+                            <span class="color-option red"></span>
+                            <span class="color-option blue"></span>
+                            <span class="color-option green"></span>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Apply Filters</button>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 1">
+                        <h3>Urban Jacket</h3>
+                        <p class="price">$89.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 2">
+                        <h3>Classic Dress</h3>
+                        <p class="price">$129.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 3">
+                        <h3>Leather Boots</h3>
+                        <p class="price">$149.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 4">
+                        <h3>Designer Bag</h3>
+                        <p class="price">$199.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 5">
+                        <h3>Casual Shirt</h3>
+                        <p class="price">$49.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 6">
+                        <h3>Summer Dress</h3>
+                        <p class="price">$79.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 7">
+                        <h3>Designer hat</h3>
+                        <p class="price">$249.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 8">
+                        <h3>sp nike shoose</h3>
+                        <p class="price">$179.99</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="page-link"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link">4</a>
+                <a href="#" class="page-link">5</a>
+                <a href="#" class="page-link"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>VOGUE AVENUE</h3>
+                    <p>Elevating fashion since 2015. We bring you the latest trends with quality and style.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vogue Avenue. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

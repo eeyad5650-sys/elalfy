@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue Avenue | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<!-- دي بداية جسم الصفحة وكل محتوى الموقع بيتحط جواها -->
+<body>
+    <!-- دا شريط التنقل العلوي الثابت اللي بيظهر في كل الصفحات -->
+    <nav class="navbar">
+        <!-- الحاوية اللي بتظبط محاذاة المحتوى في النص -->
+        <div class="container">
+            <!-- دا اللوجو ورابط الصفحة الرئيسية -->
+            <a href="index.html" class="logo">VOGUE<span>AVENUE</span></a>
+            <!-- دي القايمة الرئيسية لروابط الموقع -->
+            <ul class="nav-links">
+                <!-- رابط الصفحة الرئيسية وفيه كلاس active عشان يعرف ان احنا فيها دلوقتي -->
+                <li><a href="index.html" class="active">Home</a></li>
+                <!-- رابط صفحة التسوق -->
+                <li><a href="shop.html">Shop</a></li>
+                <!-- رابط صفحة المجموعات -->
+                <li><a href="collections.html">Collections</a></li>
+                <!-- رابط صفحة من نحن -->
+                <li><a href="about.html">About</a></li>
+                <!-- رابط صفحة المدونة -->
+                <li><a href="blog.html">Blog</a></li>
+                <!-- رابط صفحة الاتصال -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- مجموعة الأيقونات التفاعلية -->
+            <div class="nav-icons">
+                <!-- أيقونة البحث -->
+                <a href="#"><i class="fas fa-search"></i></a>
+                <!-- أيقونة حساب المستخدم -->
+                <a href="#"><i class="fas fa-user"></i></a>
+                <!-- أيقونة سلة التسوق -->
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+            <!-- زرار القائمة اللي بيظهر في الموبايل عشان يخفي ويظهر القايمة -->
+            <button class="menu-toggle">
+                <!-- شكل الخطوط التلاتة (الهامبرجر) -->
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section - القسم الرئيسي الاعلاني في اول الصفحة -->
+    <section class="hero">
+        <!-- الحاوية اللي بتظبط المحتوى في النص -->
+        <div class="container">
+            <!-- الجزء النصي من القسم الرئيسي -->
+            <div class="hero-content">
+                <!-- العنوان الرئيسي للقسم -->
+                <h1>New Season Collection</h1>
+                <!-- الوصف التعريفي تحت العنوان -->
+                <p>Discover the latest trends in fashion for 2026. Elevate your style with our exclusive designs.</p>
+                <!-- زرار الحث على اتخاذ اجراء اللي بيودي على صفحة التسوق -->
+                <a href="shop.html" class="btn-primary">Shop Now</a>
+            </div>
+            <!-- الجزء الخاص بالصورة في القسم الرئيسي -->
+            <div class="hero-image">
+                <!-- صورة الموديل اللي بتظهر في القسم الرئيسي -->
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Fashion Model">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories - قسم عرض التصنيفات المختلفة -->
+    <section class="categories">
+        <!-- الحاوية اللي بتظبط المحتوى في النص -->
+        <div class="container">
+            <!-- عنوان القسم -->
+            <h2 class="section-title">Shop by Category</h2>
+            <!-- شبكة عرض التصنيفات -->
+            <div class="category-grid">
+                <!-- بطاقة تصنيف الرجالي -->
+                <div class="category-card">
+                    <!-- صورة تصنيف الرجالي -->
+                    <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Men's Fashion">
+                    <!-- محتوى البطاقة النصي -->
+                    <div class="category-content">
+                        <!-- عنوان التصنيف -->
+                        <h3>Men</h3>
+                        <!-- رابط التسوق من التصنيف -->
+                        <a href="shop.html?category=men" class="btn-secondary">Shop Men</a>
+                    </div>
+                </div>
+                <!-- بطاقة تصنيف الحريمي -->
+                <div class="category-card">
+                    <!-- صورة تصنيف الحريمي -->
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Women's Fashion">
+                    <!-- محتوى البطاقة النصي -->
+                    <div class="category-content">
+                        <!-- عنوان التصنيف -->
+                        <h3>Women</h3>
+                        <!-- رابط التسوق من التصنيف -->
+                        <a href="shop.html?category=women" class="btn-secondary">Shop Women</a>
+                    </div>
+                </div>
+                <!-- بطاقة تصنيف الاكسسوارات -->
+                <div class="category-card">
+                    <!-- صورة تصنيف الاكسسوارات -->
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Accessories">
+                    <!-- محتوى البطاقة النصي -->
+                    <div class="category-content">
+                        <!-- عنوان التصنيف -->
+                        <h3>Accessories</h3>
+                        <!-- رابط التسوق من التصنيف -->
+                        <a href="shop.html?category=accessories" class="btn-secondary">Shop Accessories</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers - قسم المنتجات الاكثر مبيعا -->
+    <section class="best-sellers">
+        <!-- الحاوية اللي بتظبط المحتوى في النص -->
+        <div class="container">
+            <!-- عنوان القسم -->
+            <h2 class="section-title">Best Sellers</h2>
+            <!-- شبكة عرض المنتجات -->
+            <div class="product-grid">
+                <!-- بطاقة المنتج الاول -->
+                <div class="product-card">
+                    <!-- صورة المنتج -->
+                    <img src="https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 1">
+                    <!-- اسم المنتج -->
+                    <h3>Urban Jacket</h3>
+                    <!-- سعر المنتج -->
+                    <p class="price">$89.99</p>
+                    <!-- زرار اضافة للسلة -->
+                    <a href="#" class="btn-secondary">Add to Cart</a>
+                </div>
+                <!-- بطاقة المنتج الثاني -->
+                <div class="product-card">
+                    <!-- صورة المنتج -->
+                    <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 2">
+                    <!-- اسم المنتج -->
+                    <h3>Classic Dress</h3>
+                    <!-- سعر المنتج -->
+                    <p class="price">$129.99</p>
+                    <!-- زرار اضافة للسلة -->
+                    <a href="#" class="btn-secondary">Add to Cart</a>
+                </div>
+                <!-- بطاقة المنتج الثالث -->
+                <div class="product-card">
+                    <!-- صورة المنتج -->
+                    <img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 3">
+                    <!-- اسم المنتج -->
+                    <h3>Leather Boots</h3>
+                    <!-- سعر المنتج -->
+                    <p class="price">$149.99</p>
+                    <!-- زرار اضافة للسلة -->
+                    <a href="#" class="btn-secondary">Add to Cart</a>
+                </div>
+                <!-- بطاقة المنتج الرابع -->
+                <div class="product-card">
+                    <!-- صورة المنتج -->
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product 4">
+                    <!-- اسم المنتج -->
+                    <h3>Designer Bag</h3>
+                    <!-- سعر المنتج -->
+                    <p class="price">$199.99</p>
+                    <!-- زرار اضافة للسلة -->
+                    <a href="#" class="btn-secondary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Banner - قسم العرض الترويجي -->
+    <section class="offer-banner">
+        <!-- الحاوية اللي بتظبط المحتوى في النص -->
+        <div class="container">
+            <!-- محتوى العرض -->
+            <div class="offer-content">
+                <!-- نسبة الخصم -->
+                <h2>30% OFF</h2>
+                <!-- تفاصيل العرض -->
+                <p>On all new arrivals this season. Limited time offer!</p>
+                <!-- زرار التسوق من العرض -->
+                <a href="shop.html" class="btn-primary">Shop Sale</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - قسم تذييل الصفحة -->
+    <footer class="footer">
+        <!-- الحاوية اللي بتظبط المحتوى في النص -->
+        <div class="container">
+            <!-- شبكة محتويات التذييل -->
+            <div class="footer-grid">
+                <!-- العمود الاول - معلومات عن الموقع -->
+                <div class="footer-col">
+                    <!-- عنوان العمود -->
+                    <h3>VOGUE AVENUE</h3>
+                    <!-- وصف الموقع -->
+                    <p>Elevating fashion since 2015. We bring you the latest trends with quality and style.</p>
+                    <!-- ايقونات التواصل الاجتماعي -->
+                    <div class="social-icons">
+                        <!-- رابط الفيسبوك -->
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <!-- رابط الانستجرام -->
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <!-- رابط التويتر -->
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <!-- رابط البينتيريست -->
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <!-- العمود التاني - روابط سريعة -->
+                <div class="footer-col">
+                    <!-- عنوان العمود -->
+                    <h4>Quick Links</h4>
+                    <!-- قائمة الروابط -->
+                    <ul>
+                        <!-- رابط الصفحة الرئيسية -->
+                        <li><a href="index.html">Home</a></li>
+                        <!-- رابط صفحة التسوق -->
+                        <li><a href="shop.html">Shop</a></li>
+                        <!-- رابط صفحة المجموعات -->
+                        <li><a href="collections.html">Collections</a></li>
+                        <!-- رابط صفحة من نحن -->
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <!-- العمود التالت - خدمة العملاء -->
+                <div class="footer-col">
+                    <!-- عنوان العمود -->
+                    <h4>Customer Service</h4>
+                    <!-- قائمة الروابط -->
+                    <ul>
+                        <!-- رابط الاسئلة الشائعة -->
+                        <li><a href="#">FAQ</a></li>
+                        <!-- رابط سياسة الشحن -->
+                        <li><a href="#">Shipping Policy</a></li>
+                        <!-- رابط سياسة الاسترجاع -->
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <!-- رابط صفحة الاتصال -->
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- العمود الرابع - النشرة البريدية -->
+                <div class="footer-col">
+                    <!-- عنوان العمود -->
+                    <h4>Newsletter</h4>
+                    <!-- وصف النشرة البريدية -->
+                    <p>Subscribe for updates and exclusive offers.</p>
+                    <!-- نموذج الاشتراك -->
+                    <form class="newsletter-form">
+                        <!-- حقل ادخال البريد الالكتروني -->
+                        <input type="email" placeholder="Your Email" required>
+                        <!-- زرار الاشتراك -->
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <!-- الجزء السفلي من التذييل -->
+            <div class="footer-bottom">
+                <!-- حقوق النشر -->
+                <p>&copy; 2026 Vogue Avenue. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
